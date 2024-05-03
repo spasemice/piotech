@@ -1,6 +1,6 @@
 # from https://github.com/esphome/esphome/blob/dev/docker/Dockerfile
 
-FROM ubuntu:23.04 AS base-docker
+FROM ubuntu:mantic-20240427 AS base-docker
 
 RUN \
     apt-get update \
